@@ -18,10 +18,12 @@ if (mouseX < width/2)
 {
     fill(mouseX/2)
 text('left',mouseX, height/2)
+arc(400, 450, 80, 80, 0, PI , PIE);
 }
 else{
     fill(mouseX/2)
 text('right' ,mouseX, height/2)
+arc(400, 450, 80, 80, PI, 0 , PIE);
     }
 console.log(mouseX)
 }
